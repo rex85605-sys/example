@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary Akku! ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="musicToggle" class="music-btn" aria-label="Play/Pause Music">
+            <svg class="play-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M8 5v14l11-7z" fill="currentColor"/>
+            </svg>
+            <svg class="pause-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" fill="currentColor"/>
+            </svg>
+        </button>
+        <audio id="backgroundMusic" loop>
+            <source src="assets/music/romantic.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Happy Anniversary</h1>
+            <h2 class="hero-name">Akku ❤️</h2>
+            <div class="heart-divider">
+                <span class="heart">♥</span>
+            </div>
+            <p class="hero-subtitle">Celebrating our beautiful journey together</p>
+        </div>
+        <div class="floating-hearts">
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+            <span class="floating-heart">♥</span>
+        </div>
+    </section>
+
+    <!-- Photo Slideshow -->
+    <section class="slideshow-section">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Moments</h2>
+            <div class="slideshow-container">
+                <div class="slideshow-wrapper">
+                    <div class="slide active">
+                        <div class="slide-placeholder">
+                            <div class="placeholder-icon">📷</div>
+                            <p class="placeholder-text">First Date</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-placeholder">
+                            <div class="placeholder-icon">💑</div>
+                            <p class="placeholder-text">Our Engagement</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-placeholder">
+                            <div class="placeholder-icon">💍</div>
+                            <p class="placeholder-text">Wedding Day</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-placeholder">
+                            <div class="placeholder-icon">🌟</div>
+                            <p class="placeholder-text">Honeymoon</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-placeholder">
+                            <div class="placeholder-icon">❤️</div>
+                            <p class="placeholder-text">Together Forever</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn prev" aria-label="Previous slide">❮</button>
+                <button class="slide-btn next" aria-label="Next slide">❯</button>
+                <div class="slide-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Our Love Story</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">The Beginning</div>
+                        <h3>When We First Met</h3>
+                        <p>It was a moment that changed everything. Our eyes met, and something magical began that would last forever.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">First Date</div>
+                        <h3>The Perfect Evening</h3>
+                        <p>Nervous excitement, endless conversation, and the beginning of something beautiful. We knew this was just the start.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">The Proposal</div>
+                        <h3>Will You Marry Me?</h3>
+                        <p>With trembling hands and a heart full of love, the question was asked. The answer was a resounding yes!</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Our Wedding</div>
+                        <h3>I Do</h3>
+                        <p>Surrounded by loved ones, we promised forever. It was the most beautiful day, marking the beginning of our married life.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Today</div>
+                        <h3>Still Growing Together</h3>
+                        <p>Every day with you is a gift. Our love grows stronger, deeper, and more beautiful with each passing moment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">Special Messages</h2>
+            <div class="wishes-grid">
+                <div class="wish-card">
+                    <div class="wish-icon">💕</div>
+                    <h3>My Dearest Love</h3>
+                    <p>You are my today and all of my tomorrows. Every moment spent with you is a treasure I hold close to my heart. Thank you for being my everything.</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🌹</div>
+                    <h3>To My Best Friend</h3>
+                    <p>You're not just my partner, you're my best friend, my confidant, my rock. Thank you for making every day brighter and every moment sweeter.</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">✨</div>
+                    <h3>Forever & Always</h3>
+                    <p>In this life and the next, I choose you. Our love story is my favorite, and I can't wait to write more chapters together.</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">💫</div>
+                    <h3>Growing Together</h3>
+                    <p>Through ups and downs, laughter and tears, we've grown stronger together. Here's to many more years of love, adventure, and beautiful memories.</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🌟</div>
+                    <h3>You Complete Me</h3>
+                    <p>With you, I am home. You've filled my life with love, joy, and purpose. I am grateful every single day that you're mine.</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">💖</div>
+                    <h3>Happy Anniversary</h3>
+                    <p>To the love of my life, my soulmate, my everything - happy anniversary! Here's to us, to our love, and to forever together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Made with ❤️ for Akku</p>
+            <p class="footer-subtitle">Forever yours, always and in all ways</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

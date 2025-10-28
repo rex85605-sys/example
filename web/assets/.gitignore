@@ -1,0 +1,13 @@
+# Ignore personal photos and music files
+images/*.jpg
+images/*.jpeg
+images/*.png
+images/*.gif
+images/*.webp
+music/*.mp3
+music/*.wav
+music/*.ogg
+
+# But keep the README files
+!images/README.md
+!music/README.md
