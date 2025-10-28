@@ -61,3 +61,26 @@ This Flutter app implements YouTube functionality using a custom InnerTube API c
 ## Note
 
 This implementation uses YouTube's internal InnerTube API. The API key and endpoints are publicly available but usage should comply with YouTube's Terms of Service.
+
+---
+
+## Anniversary Website 💕
+
+This repository also contains a beautiful romantic wedding anniversary website located in the `/web` directory.
+
+### Features
+- **Photo Slideshow**: Smooth transitions with navigation controls
+- **Background Music**: Play/pause controls with looping audio
+- **Love Story Timeline**: Interactive timeline of relationship milestones
+- **Special Wishes**: Beautiful message cards with romantic content
+- **Responsive Design**: Works perfectly on mobile and desktop
+- **Elegant Animations**: Floating hearts, parallax effects, and smooth transitions
+
+### Quick Start
+```bash
+cd web
+python3 -m http.server 8000
+```
+Then open http://localhost:8000 in your browser.
+
+See `/web/README.md` for detailed setup instructions, customization options, and how to add your own photos and music.
